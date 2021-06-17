@@ -1,3 +1,80 @@
 div.outer-task-div{
+    background-color: rgb(107, 82, 185);
+    width: fit-content;
+    height: fit-content;
+    display: inline-flex;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.info-div{
+    padding-left: 5px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: rgb(144, 121, 207);
+    width: 275px;
+    height: fit-content;
+}
+
+.info-div > p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        word-wrap: break-word;
+}
+
+.info-div > p.task-name{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+div.buttons-div{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.buttons-div > button{
+    background-color: rgb(49, 19, 153);
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.buttons-div > button:hover{
+    color: rgb(49, 19, 153);
+    background-color: white;
+}
+
+div.outer-task-div.pinned{
+    background-color: rgb(185, 148, 54) !important;
+}
+
+div.outer-task-div.pinned > .info-div{
+    background-color: rgb(214, 179, 90) !important;
+}
+
+div.outer-task-div.pinned > .buttons-div > button{
+    background-color: rgb(153, 102, 0);
+}
+
+div.outer-task-div.pinned > .buttons-div > button:hover{
+    color: rgb(153, 102, 0);
+    background-color: white;
+}
+
+.status-bar{
+    background-color: green;
+    height: 10px;
+    width: 60px;
+    border: none;
+}
+
+.status-bar.warning{
+    background-color: yellow;
+}
+
+.status-bar.stop{
     background-color: red;
 }

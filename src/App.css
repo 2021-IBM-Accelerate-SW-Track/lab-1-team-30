@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-gap: 20px;
+  width: fit-content;
+  background-color: rgb(129, 115, 171);
 }
 
 body {
@@ -15,3 +19,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.add-bar>button>p{
+  align-self: center;
+  font-size: xx-large;
+  margin-left: 10px;
+}
+.add-bar>button{
+  display: flex;
+  width: 100%;
+  padding-left: 0px;
+  background-color: rgb(129, 115, 171);
+}
+.add-bar>button>svg{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(54, 37, 105);
+}
+
