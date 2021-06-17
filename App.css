@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.addButton {
+  color: red;
+  background-color:blue;
+  margin-left: 6px;
+}
+
+.removeButton {
+  color: pink;
+  background-color: black;
+  margin-right: 6px;
+}
+
+.remainingItems {
+  color: yellow;
+  background-color: black;
+}
+
+
+.root {
+  background-color: blue;
+  color: white;
+  font-family: cursive;
+}
+
+.inputField {
+  color: red;
+  background-color: black;
+}
+/*The 'box' in the name refers to the card shape that the tasks will
+have.*/
+.eventBox {
+  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  color: white;
+  font-style: italic;
+  font-family: monospace;
+}
+
+/*Same as above, the 'box' is just the shape of the container of the task.*/
+.pinBox {
+  background-color: red;
+  color: white;
+  font-style: oblique;
+}
