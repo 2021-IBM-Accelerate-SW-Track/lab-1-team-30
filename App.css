@@ -15,47 +15,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.addButton {
-  color: red;
-  background-color:blue;
-  margin-left: 6px;
+/* Style the list items */
+ul li {
+  padding: 20px;
+  background-color: rgb(180, 182, 181);
+  font-size: 30px;
+  text-align: center;
+  transition: 0.2s;
+  border: 5px solid rgb(255, 255, 255);
+  width: 95%;
 }
-
-.removeButton {
-  color: pink;
-  background-color: black;
-  margin-right: 6px;
+.header {
+  padding: 30px 40px;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
-
-.remainingItems {
-  color: yellow;
-  background-color: black;
-}
-
-
-.root {
-  background-color: blue;
-  color: white;
-  font-family: cursive;
-}
-
-.inputField {
-  color: red;
-  background-color: black;
-}
-/*The 'box' in the name refers to the card shape that the tasks will
-have.*/
-.eventBox {
-  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
-  color: white;
-  font-style: italic;
-  font-family: monospace;
-}
-
-/*Same as above, the 'box' is just the shape of the container of the task.*/
-.pinBox {
-  background-color: red;
-  color: white;
-  font-style: oblique;
-}
+hr.rounded {
+  border-top: 20px solid rgba(0, 0, 0, 0.534);
+  border-radius: 30px;
+  }
