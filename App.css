@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -25,8 +24,46 @@ ul li {
   border: 5px solid rgb(255, 255, 255);
   width: 95%;
 }
-.header {
+h3{
+    display: block;
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 350px;
+}
+h1{
   padding: 30px 40px;
+  display: block;
+  font-size: 3em;
+  text-align: left; 
+  font-weight: bold;
+  margin-left: 150px;
+}
+input[type=text] {
+  padding: 10px;
+  font-size: 1.5em;
+  width: 50%;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  margin-left: 350px;
+}
+input[type=datetime-local] {
+  padding: 10px;
+  font-size: 1.5em;
+  width: 50%;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  margin-left: 350px;
+}
+input[type=submit] {
+  padding:30px 45px; 
+  background:rgb(116, 255, 123); 
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor:pointer;
+  border-radius: 20px; 
+  margin-left: 630px;
+}
+.header {
+  padding: 60px 40px;
   color: rgb(0, 0, 0);
   text-align: center;
 }
