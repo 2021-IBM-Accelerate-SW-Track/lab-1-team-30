@@ -7,6 +7,10 @@ div.outer-task-div{
     margin-bottom: 10px;
 }
 
+#info{
+    border-width: 10px;
+}
+
 .info-div{
     padding-left: 5px;
     text-align: left;
@@ -15,12 +19,14 @@ div.outer-task-div{
     background-color: rgb(144, 121, 207);
     width: 275px;
     height: fit-content;
+    border-width: 10px;
 }
 
 .info-div > p{
         margin-top: 0px;
         margin-bottom: 0px;
         word-wrap: break-word;
+        align-content: center;
 }
 
 .info-div > p.task-name{

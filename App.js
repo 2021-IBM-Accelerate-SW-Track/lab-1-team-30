@@ -12,8 +12,6 @@ function App() {
   const eventName = useRef()
   const pinName = useRef()
   const LOCAL_STORAGE_KEY = 'todoApp.events'
-
-
 {/*Beginning of code needed in order to save the events.*/}
   useEffect(() => {
     const savedEvents = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
@@ -83,6 +81,7 @@ function App() {
   }
 
 
+  //Change add task to a form
 
   return (
     <div>
@@ -91,8 +90,10 @@ function App() {
       {/*What's happening on this line is that a
       property called 'events' is being passed to the TodoList. The name 'events'
       on the left side of the '=' operand can be renamed to anything.*/}
-      <input class = "inputField" ref={eventName} type="text" />
-      <button class = "addButton" onClick={eventGenerator}>Add Event</button>
+      <form class="addTask">
+        <input class = "inputField" ref={eventName} type="text" />
+        <button class = "addButton" onClick={eventGenerator}>Add Event</button>
+      </form>
       <button class = "removeButton" onClick={eventDestructor}>Remove Completed Events</button>
       <div class = "remainingItems" >{events.filter(events => !events.finished).length} items left.</div>
     </div>

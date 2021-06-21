@@ -6,9 +6,9 @@ import './App.css';
 
 function App() {
 
-  var obj1 = {name: "task 1 qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm", date:"05/04/20", status:"complete", isPinned:true}
-  var obj2 = {name: "task 2", date:"01/01/01", status:"complete", isPinned:false}
-  var obj3 = {name: "task 3", date:"99/99/99", status:"incomplete", isPinned:false}
+  var obj1 = {name: "Finish Lab 1", date:"06/21/21", status:"complete", isPinned:true}
+  var obj2 = {name: "Go on a run", date:"06/25/21", status:"complete", isPinned:false}
+  var obj3 = {name: "Apply for a scholaraship", date:"09/01/21", status:"incomplete", isPinned:false}
 
   const listItems = [obj1, obj2, obj3];
 
