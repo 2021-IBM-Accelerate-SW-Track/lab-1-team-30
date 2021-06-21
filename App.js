@@ -85,7 +85,7 @@ function App() {
 
 
   return (
-    < >
+    <div>
       <PinList pins={pins} togglePinned={togglePinned} />
       <TodoList events={events} toggleCompletion={toggleCompletion} togglePin={togglePin} />
       {/*What's happening on this line is that a
@@ -95,7 +95,7 @@ function App() {
       <button class = "addButton" onClick={eventGenerator}>Add Event</button>
       <button class = "removeButton" onClick={eventDestructor}>Remove Completed Events</button>
       <div class = "remainingItems" >{events.filter(events => !events.finished).length} items left.</div>
-    < />
+    </div>
   );
 }
 

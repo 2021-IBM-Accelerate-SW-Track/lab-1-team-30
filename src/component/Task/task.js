@@ -18,6 +18,7 @@ export default function Task(props){
         document.querySelector('#status').lastElementChild.style.backgroundColor = statusColorList[currentColor]
     }
 
+    //Status bar is not clear that it's a button. Also, only updates top one because it's base on lastChild and not element in list
     return (
         <div class={`outer-task-div ${props.isPinned ? "pinned" : ""}`}>
             <div class="info-div">
@@ -27,10 +28,10 @@ export default function Task(props){
                 
             </div>
             <div class="buttons-div">
-                <IconButton aria-label="delete">
+                <IconButton aria-label="edit">
                     <Edit />
                 </IconButton>
-                <IconButton aria-label="delete">
+                <IconButton aria-label="pin">
                     <Pin />
                 </IconButton>
                 <IconButton aria-label="delete">
