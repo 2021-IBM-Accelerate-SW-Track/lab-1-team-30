@@ -10,6 +10,7 @@ export default function Event({events, pins, toggleCompletion, togglePin}) {
     toggleCompletion(events.id)
   }
 
+  //Where is the checkbox
   return(
     <div>
       <label class = "eventBox">
